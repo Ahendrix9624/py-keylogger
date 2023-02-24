@@ -12,3 +12,8 @@ python3 main.py
 ```python
 python3 parse.py
 ```
+
+### Contributions? Wanna help build this code out even further?
+```plain text
+I would like to build the regex functionality in parse.py to detect when a space was clicked or an enter was clicked then parse the log accordingly this will make it even easier to read
+```
