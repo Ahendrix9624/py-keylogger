@@ -1,3 +1,12 @@
+"""
+USAGE - The code reads keystroke data from a file "keylog.txt", extracts a pattern from the data 
+        using regular expressions, and writes the extracted data to a new file "parsed_keys.txt".
+        The pattern matches a string of characters enclosed in quotes (either single or double) 
+        following a specific date format. The function parse_data() reads the file, extracts the 
+        pattern matches, joins them into a string, and writes the result to the output file.
+
+AUTHOR - https://github.com/Ahendrix9624/
+"""
 import re
 KEYLOG_DATA = "keylog.txt"
 PARSED_DATA = "parsed_data.txt"
